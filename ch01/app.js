@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use strict";
 exports.__esModule = true;
 var combination_1 = require("./combination");
@@ -39,8 +40,22 @@ for (var _i = 0, _a = user1.hobbies; _i < _a.length; _i++) {
 var combinedAges = (0, combination_1.combine)(30, 20);
 console.log('조합: ', combinedAges);
 var person = {
+=======
+var user1 = {
+>>>>>>> e33b7d6 (배열 타입)
     name: 'Maximilian',
-    age: 30
+    age: 30,
+    hobbies: ['Sports', 'Cooking'],
+    role: [2, 'author']
 };
-console.log(person.name);
-console.log(person.age);
+user1.role.push('admin');
+user1.role[1] = 10;
+var favoriteActivities;
+favoriteActivities = ['Sport', 'Cok'];
+console.log(user1.name);
+console.log(user1.age);
+console.log(favoriteActivities);
+for (var _i = 0, _a = user1.hobbies; _i < _a.length; _i++) {
+    var hobby = _a[_i];
+    console.log(hobby.toUpperCase());
+}
