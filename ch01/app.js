@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "use strict";
 exports.__esModule = true;
 var combination_1 = require("./combination");
@@ -63,9 +64,25 @@ console.log('result: ', result);
 // console.log('result: ', result);
 // 객체 형태
 var person = {
+=======
+var user1 = {
+>>>>>>> 4a5ad22 (배열 타입)
     name: 'Maximilian',
-    age: 30
+    age: 30,
+    hobbies: ['Sports', 'Cooking']
 };
+<<<<<<< HEAD
 console.log(person.name);
 console.log(person.age);
 >>>>>>> 52a8812 (객체 형태)
+=======
+var favoriteActivities;
+favoriteActivities = ['Sport', 'Cok'];
+console.log(user1.name);
+console.log(user1.age);
+console.log(favoriteActivities);
+for (var _i = 0, _a = user1.hobbies; _i < _a.length; _i++) {
+    var hobby = _a[_i];
+    console.log(hobby.toUpperCase());
+}
+>>>>>>> 4a5ad22 (배열 타입)

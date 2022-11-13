@@ -7,6 +7,7 @@
   "main": "app.js",
   "scripts": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "start": "node app.js",
 =======
   "main": "index.js",
@@ -41,4 +42,14 @@
   "author": "",
   "license": "ISC"
 >>>>>>> 52a8812 (객체 형태)
+=======
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  }
+>>>>>>> 4a5ad22 (배열 타입)
 }

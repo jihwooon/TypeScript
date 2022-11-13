@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { combine } from './combination';
 enum Role {
     ADMIN,
@@ -72,10 +73,29 @@ console.log('result: ', result);
 >>>>>>> 8f15b29 (불리언 타입 알아보기)
 =======
 const person = {
+=======
+const user1 = {
+>>>>>>> 4a5ad22 (배열 타입)
     name: 'Maximilian',
-    age: 30
+    age: 30,
+    hobbies: ['Sports', 'Cooking']
 };
 
+<<<<<<< HEAD
 console.log(person.name);
 console.log(person.age);
 >>>>>>> 52a8812 (객체 형태)
+=======
+let favoriteActivities: string[];
+favoriteActivities = ['Sport', 'Cok'];
+
+console.log(user1.name);
+console.log(user1.age);
+
+console.log(favoriteActivities);
+
+for(const hobby of user1.hobbies) {
+    console.log(hobby.toUpperCase());
+}
+
+>>>>>>> 4a5ad22 (배열 타입)
