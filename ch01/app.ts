@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { combine } from './combination';
 enum Role {
     ADMIN,
@@ -69,3 +70,12 @@ console.log('result: ', result);
 const result = add(number1, number2, printResult, resultPhrase);
 console.log('result: ', result);
 >>>>>>> 8f15b29 (불리언 타입 알아보기)
+=======
+const person = {
+    name: 'Maximilian',
+    age: 30
+};
+
+console.log(person.name);
+console.log(person.age);
+>>>>>>> 52a8812 (객체 형태)
