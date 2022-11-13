@@ -4,12 +4,16 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
+<<<<<<< HEAD
   "license": "ISC",
   "dependencies": {
     "typescript": "^4.8.4"
   }
+=======
+  "license": "ISC"
+>>>>>>> 25d8bec (불리언 타입 알아보기)
 }

@@ -38,3 +38,9 @@ for (var _i = 0, _a = user1.hobbies; _i < _a.length; _i++) {
 }
 var combinedAges = (0, combination_1.combine)(30, 20);
 console.log('조합: ', combinedAges);
+var person = {
+    name: 'Maximilian',
+    age: 30
+};
+console.log(person.name);
+console.log(person.age);

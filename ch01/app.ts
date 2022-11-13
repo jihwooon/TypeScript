@@ -49,3 +49,11 @@ for(const hobby of user1.hobbies) {
 }
 const combinedAges = combine(30, 20);
 console.log('조합: ', combinedAges);
+
+const person = {
+    name: 'Maximilian',
+    age: 30
+};
+
+console.log(person.name);
+console.log(person.age);
