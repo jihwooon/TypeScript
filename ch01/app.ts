@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { combine } from './combination';
 enum Role {
     ADMIN,
@@ -8,10 +9,13 @@ enum Role {
     AUTHOR,
 }
 
+=======
+>>>>>>> fb24023 (튜플 작업하기)
 const user1: {
     name: string,
     age: number,
     hobbies: string[],
+<<<<<<< HEAD
     role: Role
 
 } = {
@@ -76,18 +80,30 @@ const person = {
 =======
 const user1 = {
 >>>>>>> 4a5ad22 (배열 타입)
+=======
+    role: [number, string]
+
+} = {
+>>>>>>> fb24023 (튜플 작업하기)
     name: 'Maximilian',
     age: 30,
-    hobbies: ['Sports', 'Cooking']
+    hobbies: ['Sports', 'Cooking'],
+    role: [2, 'author']
 };
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 console.log(person.name);
 console.log(person.age);
 >>>>>>> 52a8812 (객체 형태)
 =======
+=======
+user1.role.push('admin');
+user1.role[1] = 'user';
+
+>>>>>>> fb24023 (튜플 작업하기)
 let favoriteActivities: string[];
-favoriteActivities = ['Sport', 'Cok'];
+favoriteActivities = ['Sport', 'Cok', 'dd', 'dd'];
 
 console.log(user1.name);
 console.log(user1.age);
@@ -97,5 +113,8 @@ console.log(favoriteActivities);
 for(const hobby of user1.hobbies) {
     console.log(hobby.toUpperCase());
 }
+<<<<<<< HEAD
 
 >>>>>>> 4a5ad22 (배열 타입)
+=======
+>>>>>>> fb24023 (튜플 작업하기)

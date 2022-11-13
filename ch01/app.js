@@ -14,6 +14,7 @@ var user1 = {
     name: 'Maximilian',
     age: 30,
     hobbies: ['Sports', 'Cooking'],
+<<<<<<< HEAD
     role: Role.ADMIN
 };
 // user1.role.push('admin');
@@ -76,6 +77,12 @@ console.log(person.name);
 console.log(person.age);
 >>>>>>> 52a8812 (객체 형태)
 =======
+=======
+    role: [2, 'author']
+};
+user1.role.push('admin');
+user1.role[1] = 10;
+>>>>>>> fb24023 (튜플 작업하기)
 var favoriteActivities;
 favoriteActivities = ['Sport', 'Cok'];
 console.log(user1.name);
