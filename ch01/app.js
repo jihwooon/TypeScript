@@ -1,21 +1,14 @@
-// function add(n1: number, n2: number, showResult: boolean, phrase: string) {
-//     const result = n1 + n2;
-//     if(showResult) {
-//         console.log(phrase + result);
-//     }
-//     return result;
-// }
-// const number1 = 5;
-// const number2 = 2.8;
-// const printResult = true;
-// const resultPhrase = 'Result is: '
-// // 타입 에러
-// const result = add(number1, number2, printResult, resultPhrase);
-// console.log('result: ', result);
-// 객체 형태
-var person = {
+var user1 = {
     name: 'Maximilian',
-    age: 30
+    age: 30,
+    hobbies: ['Sports', 'Cooking']
 };
-console.log(person.name);
-console.log(person.age);
+var favoriteActivities;
+favoriteActivities = ['Sport', 'Cok'];
+console.log(user1.name);
+console.log(user1.age);
+console.log(favoriteActivities);
+for (var _i = 0, _a = user1.hobbies; _i < _a.length; _i++) {
+    var hobby = _a[_i];
+    console.log(hobby.toUpperCase());
+}
