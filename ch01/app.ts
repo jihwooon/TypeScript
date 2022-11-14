@@ -1,18 +1,25 @@
+import { combine } from './combination';
+enum Role {
+    ADMIN,
+    READ_ONLY,
+    AUTHOR,
+}
+
 const user1: {
     name: string,
     age: number,
     hobbies: string[],
-    role: [number, string]
+    role: Role
 
 } = {
     name: 'Maximilian',
     age: 30,
     hobbies: ['Sports', 'Cooking'],
-    role: [2, 'author']
+    role: Role.ADMIN
 };
 
-user1.role.push('admin');
-user1.role[1] = 'user';
+// user1.role.push('admin');
+// user1.role[1] = 'user';
 
 let favoriteActivities: string[];
 favoriteActivities = ['Sport', 'Cok', 'dd', 'dd'];
@@ -25,3 +32,5 @@ console.log(favoriteActivities);
 for(const hobby of user1.hobbies) {
     console.log(hobby.toUpperCase());
 }
+const combinedAges = combine(30, 20);
+console.log('조합: ', combinedAges);
