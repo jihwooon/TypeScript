@@ -25,6 +25,11 @@ function add(n1: number, n2: number) {
     }
     return new Error('Incorrect input!');
 }
+// user1.role.push('admin');
+// user1.role[1] = 'user';
+
+let favoriteActivities: string[];
+favoriteActivities = ['Sport', 'Cok', 'dd', 'dd'];
 
 const number1 = 5;
 const number2 = 2.8;
@@ -35,3 +40,9 @@ console.log('result: ', result);
 
 // user1.role.push('admin');
 // user1.role[1] = 'user';
+
+for(const hobby of user1.hobbies) {
+    console.log(hobby.toUpperCase());
+}
+const combinedAges = combine(30, 20);
+console.log('조합: ', combinedAges);
