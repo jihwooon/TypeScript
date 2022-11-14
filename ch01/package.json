@@ -1,0 +1,28 @@
+{
+  "name": "ch01",
+  "version": "1.0.0",
+  "description": "",
+<<<<<<< HEAD
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+=======
+  "main": "index.js",
+  "scripts": {
+<<<<<<< HEAD
+>>>>>>> c67bc8e (Using Types)
+=======
+    "start": "node app.js",
+>>>>>>> bb38d27 (TypeScript의 typeof 기능 알아보기)
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+<<<<<<< HEAD
+=======
+    "jest": "^29.3.1",
+>>>>>>> c67bc8e (Using Types)
+    "typescript": "^4.8.4"
+  }
+}
