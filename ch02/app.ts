@@ -1,4 +1,7 @@
-const userName = 'Max';
+const button = document.querySelector('button')!;
 
-console.log(userName);
+button.addEventListener('click', () => {
+    console.log('Clicked!');
+})
 
+const map = new Map();
