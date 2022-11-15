@@ -16,4 +16,14 @@ const printOutput: (a: number | string) => void = output => console.log(output);
 
 console.log(add(2, 5));
 
+const hobbies = ['Sports', 'Cooking'];
+const activeHobbies = ['Hiking'];
 
+activeHobbies.push(...hobbies);
+
+const person = {
+  name: 'Max',
+  age: 30  
+};
+
+const copiedPerson = { ...person };
