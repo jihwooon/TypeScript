@@ -37,3 +37,12 @@ const person = {
 };
 
 const copiedPerson  = { ...person };
+
+const addReduce = (...numbers: number[]) => {
+  return numbers.reduce((curResult, curValue) => {
+    return curResult + curValue;
+  },0);
+};
+
+const addedNumbers = addReduce(5,10,2);
+console.log(addedNumbers);
