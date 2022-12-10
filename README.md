@@ -1,27 +1,23 @@
 # TypeScript 
 
+[![Guide Documents](https://img.shields.io/badge/wiki-documentation-forestgreen)](https://github.com/jihwooon/TypeScript-Study/wiki)
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+## Setup
 
-## Installation
-
-package.json:
+**package.json:**
 
 ```sh
 npm init or yarn init
 ```
 
-TypeScript:
+**TypeScript:**
 
 ```sh
 npx tsc --init
 ```
 
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
+**TypeScript watch:**
+
+``` sh
+tsc {실행 파일} --watch or tsc -w {실행 파일}
+```
