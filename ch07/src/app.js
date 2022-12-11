@@ -29,3 +29,35 @@ function countAndDescribe(element) {
     return [element, descriptionText];
 }
 console.log(countAndDescribe('Hi There!'));
+class DataStorage {
+    constructor() {
+        this.data = [];
+    }
+    addItem(item) {
+        this.data.push(item);
+    }
+    removeItem(item) {
+        if (this.data.indexOf(item) === -1)
+            return;
+        this.data.splice(this.data.indexOf(item), 1);
+    }
+    getItems() {
+        return [...this.data];
+    }
+}
+const textStorage = new DataStorage();
+textStorage.addItem('Max');
+textStorage.addItem('Manu');
+textStorage.addItem('Max');
+console.log(textStorage.getItems());
+const numberStorage = new DataStorage();
+numberStorage.addItem(1);
+numberStorage.addItem(2);
+numberStorage.addItem(3);
+console.log(numberStorage.getItems());
+const isStorage = new DataStorage();
+numberStorage.addItem(1);
+// const objectStorage = new DataStorage<object>();
+// objectStorage.addItem({name: 'Max'});
+// objectStorage.addItem({name: 'Menu'});
+// console.log(objectStorage.getItems());
