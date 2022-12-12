@@ -1,12 +1,13 @@
 "use strict";
 console.log('Hello TypeScript');
 class Department {
-    constructor(name) {
-        this.employees = [];
+    constructor(id, name) {
+        this.id = id;
         this.name = name;
+        this.employees = [];
     }
     describe() {
-        return this.name;
+        return `${this.id}` + this.name;
     }
     addEmployee(employees) {
         this.employees.push(employees);
@@ -16,9 +17,8 @@ class Department {
         return this.employees;
     }
 }
-const newDepartment = new Department('Accounting');
+const newDepartment = new Department('1', 'Accounting');
 newDepartment.addEmployee('Max');
 newDepartment.addEmployee('Manu');
+console.log(newDepartment.describe());
 console.log(newDepartment.printEmployeeInformation());
-// console.log(newDepartment.employees[2]);
-console.log(newDepartment.name);

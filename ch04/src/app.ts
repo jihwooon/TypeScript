@@ -1,15 +1,13 @@
 console.log('Hello TypeScript');
 
 class Department {
-    name: string;
     private employees: string[] = [];
 
-    constructor(name: string) {
-        this.name = name;
+    constructor(private readonly id: string, public name: string) {
     }
 
     describe() {
-        return this.name;
+        return `${this.id}`+ this.name;
     }
 
     addEmployee(employees: string) {
@@ -22,11 +20,11 @@ class Department {
     }
 }
 
-const newDepartment = new Department('Accounting');
+const newDepartment = new Department('1','Accounting');
 
 newDepartment.addEmployee('Max');
 newDepartment.addEmployee('Manu');
 
+console.log(newDepartment.describe());
+
 console.log(newDepartment.printEmployeeInformation());
-// console.log(newDepartment.employees[2]);
-console.log(newDepartment.name);
